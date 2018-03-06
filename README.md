@@ -64,6 +64,7 @@ Our main goal is to create an interactive website full of high fidelity images a
 |8|First Deliverable: Early version of the website. This would include the general webpage structure and the instrument information.|
 |10|Second Deliverable: A pre-release version of the website, possibly with some audio, video and sound.|
 |12|Third Deliverable: Release the webpage.|
+
 *Note:* This is a preliminary timeline for the project, and as such is subject to change.
 
 ----
@@ -81,5 +82,7 @@ Our main goal is to create an interactive website full of high fidelity images a
 
 ### Management:
 **Project Repository:** You're on it! GitHub will be used to host our project code. We plan to make use of the issues system when development begins.
+
 **Trello :** [Email Lachlan for access.](u5826298@anu.edu.au) Trello will be used to help plan our project.
+
 **File Repository** [Email Lachlan for access.](u5826298@anu.edu.au). We are using Google Drive to host our miscellaneous  files, including meeting minutes and design documents.
