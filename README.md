@@ -33,16 +33,19 @@ We have brainstormed a couple potential ways to achieve this including recording
 
 ### Stakeholders:
 **Dr Mike C. Lee** 
- - Client
- - Director of the Keyboard Institute
  - Lecturer at the ANU School of Music
+ - Director of the Keyboard Institute
+ - Client
+
  
 **Dr Alec Hunter** 
+- Lecturer at the ANU School of Music
 - Client
 - Tutor
-- Lecturer at the ANU School of Music
 
 **ANU School of Music**
+
+**End Users**
 
 
 ----
