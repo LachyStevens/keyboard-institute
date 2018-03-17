@@ -1,16 +1,24 @@
-var http = require('http');
+const http = require('http');
 
-http.createServer(function(request,response){
-    var audiobutton = document.createElement("button");
-    audiobutton.innerHTML = "Test";
+const hostname = '127.0.0.1';
+const port = 3000;
+var testaudio = Audio('testmusic.mp3');
 
-    var buttonbody = document.getElementsByTagName("body")[0];
-    buttonbody.appendChild(audiobutton);
+const server = http.createServer(function(req,res){
+    res.statusCode = 200;
+    res.setHeader('Content-type', 'text/html');
+    res.end("Test Button for audio");
+    //var audiobutton = res.object;
+    //audiobutton.innerHTML = "Test";
 
-    audiobutton.addEventListener("click", PlayAudio());
-}).listen(9999)
+    //var buttonbody = document.getElementsByTagName("body")[0];
+    //buttonbody.appendChild(audiobutton);
+    //audiobutton.button().click(PlayAudio);
+    res.addEventListener("click", PlayAudio());
+});
+
+server.listen(port);
 
 function PlayAudio(){
-    var testaudio = new Audio('testmusic.mp3');
     testaudio.play();
 }
