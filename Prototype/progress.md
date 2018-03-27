@@ -8,5 +8,8 @@ Date 23/3/18
 Research done on mp3 file. Discovered my linux machine cannot decode mp3 files.
 Site used to test which audio file my VM will read: https://hpr.dogphilosophy.net/test/
 
-Date 34/3/18
+Date 24/3/18
 Further research on html5 limiting issues. Switching over to web audio api, as the audio function provided by html is muddled with mutliple issues and I do not completely understand the issues.
+
+Date 27/3/18
+Tested a little on youtube links in using the html functions. Works smoothly, possibly the best solution to playing the recorded video and audio.
