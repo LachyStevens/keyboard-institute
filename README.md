@@ -96,14 +96,14 @@ What we've accomplished since Audit 1
 ---
 
 ### Joshua
-
+_"Over the past two weeks, I have been researching and testing the audio functions that have been provided by well known and commonly used website languages. While I had initially stated my goal to prototype a website with working audio and a slideshow, the former took too much time debugging for work to begin on the latter. This also led into research on possible ways to host audio and video links on the website. Further progress notes on code work audio functions have been documented in the progress.md document in the github repo. All work has been committed to a [forked github repo](https://github.com/Joshua-Liow/keyboard-institute), which has also been pushed to the provided audit page. Any sites visited during research have been documented in a separate [Google drive document](https://drive.google.com/drive/folders/1vdxhKn5fEPqsoiDDeDTPdP3MXn4-Fm1b)."_
 
 ---
 
 ### Seng
-_"For the last few weeks I have been working on the design of the website. I used Microsoft PowerPoint to prototype by creating slideshows that not only look like a website but also can somewhat simulate user interaction. These prototypes showed my design of the virtual tour and the website in general. 
+_"For the last few weeks I have been working on the design of the website. I used Microsoft PowerPoint to prototype by creating slideshows that not only look like a website but also can somewhat simulate user interaction. These prototypes showed my design of the virtual tour and the website in general._
 
-The latest version can be found [here](https://goo.gl/cdMZSw)."_
+_The latest version can be found [here](https://goo.gl/cdMZSw)."_
 
 ---
 
