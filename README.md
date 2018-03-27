@@ -90,7 +90,7 @@ On top of that, I scheduled and ran team meetings, which involved writing up a m
 ---
 
 ### Frank
-Over the past few weeks, I have been working on the prototype of our interactive showcase. Briefly, I used the p5.js library to implement basic function such as interacting with an image with mouse and advanced functionality such as animating Isolated key and producing sound. The process went smooth, and now the prototype is tested successfully. In future, I could add more features and visual effects to it if necessary . My work can be found [here]().
+Over the past few weeks, I have been working on the prototype of our interactive showcase. Briefly, I used the p5.js library to implement basic function such as interacting with an image with mouse and advanced functionality such as animating Isolated key and producing sound. The process went smooth, and now the prototype is tested successfully. In future, I could add more features and visual effects to it if necessary . My work can be found [here](https://github.com/TheOneFrank/keyboard-institute).
 
 ---
 
