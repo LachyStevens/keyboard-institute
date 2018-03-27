@@ -32,21 +32,7 @@ We have brainstormed a couple potential ways to achieve this including recording
 -----
 
 ### Stakeholders:
-**Dr Mike C. Lee** 
- - Lecturer at the ANU School of Music
- - Director of the Keyboard Institute
- - Client
-
- 
-**Dr Alec Hunter** 
-- Lecturer at the ANU School of Music
-- Client
-- Tutor
-
-**ANU School of Music**
-
-**End Users**
-
+An updated stakeholder 
 
 ----
 
@@ -115,7 +101,9 @@ What we've accomplished since Audit 1
 ---
 
 ### Seng
+_"For the last few weeks I have been working on the design of the website. I used Microsoft PowerPoint to prototype by creating slideshows that not only look like a website but also can somewhat simulate user interaction. These prototypes showed my design of the virtual tour and the website in general. 
 
+The latest version can be found [here](https://goo.gl/cdMZSw)."_
 
 ---
 
