@@ -89,3 +89,35 @@ Our main goal is to create an interactive website full of high fidelity images a
 **Trello :** [Email Lachlan for access.](u5826298@anu.edu.au) Trello will be used to help plan our project.
 
 **File Repository** [Email Lachlan for access.](u5826298@anu.edu.au). We are using Google Drive to host our miscellaneous  files, including meeting minutes and design documents.
+
+What we've accomplished since Audit 1
+====
+----
+
+### Lachlan
+
+
+---
+
+### Frank
+
+
+---
+
+### Ben
+
+
+---
+
+### Joshua
+
+
+---
+
+### Seng
+
+
+---
+
+### The Next Few Weeks...
+
