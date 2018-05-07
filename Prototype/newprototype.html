@@ -29,8 +29,62 @@
     </video>
 
     <iframe width="480" height="360"
-    src="https://www.youtube.com/embed/quxTnEEETbo">
-    </iframe> 
+    src="https://www.youtube.com/embed/Q9qEVChoPso?">
+    </iframe>
+
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/438107043%3Fsecret_token%3Ds-ov3wG&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/438097899%3Fsecret_token%3Ds-MRduD&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+    <button id="init">
+        Web audio api test
+    </button>
+        <script>
+            var context;
+            var audioBuffer;
+
+            function init(){
+                try{
+                    context = new (window.AudioContext || window.webkitAudioContext)();
+                }catch(e){
+                    alert("Browser does not support WebAudioAPI");
+                }
+                if(audioBuffer){
+                    playSound(audioBuffer);
+                }else{
+                    loadSound();
+                }
+            }
+
+
+            
+            function loadSound(){
+                var audioLOC = 'testmusic.mp3'
+
+                var request = XMLHttpRequest();
+                request.open("GET",audioLOC,true);
+                request.responseType = 'arraybuffer';
+                request.onload = function(){
+                    context.decodeAudioData(request.response, function(buffer){
+                        audioBuffer = buffer;
+                        console.log(audioBuffer);
+                        if(audioBuffer){
+                            playSound(buffer);
+                        }
+                    });
+                }
+                request.send();
+
+            }
+    
+            function playSound(buffer){
+                var source = context.createBufferSource();
+                source.buffer = audioBuffer;
+                source.connect(context.destination);
+                source.start();
+                console.log("playing")
+            }
+        </script>
 
 </body>
 </html>
