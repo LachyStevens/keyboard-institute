@@ -3,29 +3,68 @@
 
 	<head>
 		<title>Hello World!</title>
-		<link rel="stylesheet" href="stylesheets/fonts.css">
 		<link rel="stylesheet" href="stylesheets/main.css">
 	<head>
 	
 	<body>
-		
-		<div class="topbar">
-			<h1>keyboard institute</h1>
-			<h4>ANU School of Music</h4>
-		</div>
 
-		<div class="sidenav">
-			<a href="#">Home</a>
-			<a href="#">Yes</a>
-			<a href="#">No</a>
-			<a href="#">XD</a>
+		<div class="nav_bar">
+			
+			<ul>
+				<li style="float:left;background-color:#39f;"><a href="#" class="static">ANU Keyboard Institute</a></li>
+			  	<li style="float:right;background-color:#39f;"><a href="#">Collection</a></li>
+			  	<li style="float:right;"><a href="#">Acknowledgements</a></li>	
+			  	<li style="float:right;"><a href="#">Introduction</a></li>			
+			  	<li style="float:right;"><a href="#" class="active">Home</a></li>			  	
+			</ul>
+
 		</div>
 
 		<div class="main">
-			<iframe scr="./inner.html" width="100%" height="100%">
-				Lul
-			</iframe>
+			<iframe id="main_iframe" src="testparallax.html" frameBorder="0" style="width: 100%; height: 100%; display:block;"></iframe>
 		</div>
+
+		<!--iframe transition manager-->
+		<script>
+			var fadeTime = 30;
+
+			function fadeIn(element) {
+    			var op = 0.1;  // initial opacity
+    			var timer = setInterval(function () {
+        			if (op >= 1){
+			            clearInterval(timer);
+			        }
+			        element.style.opacity = op;
+			        op += 0.1;
+			    }, fadeTime);
+			}
+
+			function changeIframeTarget(url){
+				var iframe = document.getElementById("main_iframe");
+				// console.log("url: " + url);
+				// console.log("src: " + iframe.src);
+
+				if (iframe.src != url) {
+					fadeOutAndCallback(iframe, function(){
+						iframe.src = url;
+						fadeIn(iframe);
+					});
+				}
+			}
+
+			function fadeOutAndCallback(iframe, callback){
+				var iframe = document.getElementById("main_iframe")
+				var opacity = 1;
+				var timer = setInterval(function(){
+					if(opacity < 0.1){
+						clearInterval(timer);
+						callback && callback();
+					}
+					iframe.style.opacity = opacity;
+					opacity -=  0.1;
+				}, fadeTime);
+			}
+		</script>
 
 	</body>
 	

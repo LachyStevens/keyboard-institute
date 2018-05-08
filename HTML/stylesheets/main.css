@@ -1,26 +1,52 @@
-.topbar {
-	width: 100%;
-	height: 100px;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #333;
-	overflow-x: hidden;
-	overflow-y: hidden;
+html, body {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.topbar h1 {
-	font-family: "Aileron Italic", Helvetica, Arial, sans-serif;
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #555; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #333; 
+}
+
+.top_bar {
+	width: 100%;
+	height: 105px;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	background-color: #555;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	border-bottom: 2px solid #39f;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav_bar h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	text-align: center;
+	text-align: left;
 	color: #eee;
+	margin-bottom: 0px;
 }
 
-.topbar h4 {
+.top_bar h4 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	font-style: normal;
@@ -28,50 +54,54 @@
 	font-weight: 500;
 	text-align: center;
 	color: #39f;
+	margin: 0px;
 }
 
-.sidenav {
-	height: 100%;
-	width: 250px;
+.nav_bar {
+	top: 0px;
+	width: 100%;
+	height: 50px;
 	position: fixed;
-	z-index: 1;
-	top: 100px;
-	left: 0;
-	background-color: #fff;
-	overflow-x: hidden;
 }
 
-.sidenav a {
-	padding: 6px 8px 6px 16px;
-	text-decoration: none;
-	font-size: 25px;
-	color: #818181;
+.nav_bar ul {
+	width: 100%;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.nav_bar li {
+	float: left;
+	text-align: center;
+}
+
+.nav_bar li a {
 	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.sidenav a:hover {
-	color: #f1f1f1;
-	background-color: #aaa;
+.nav_bar li a:hover {
+	background-color: #333;
+}
+
+.static {
+	background-color: #39f;
 }
 
 .main {
-	width: calc(100% - 250px);
-	height: calc(100% - 100px);
-	position: fixed;
-	top: 100px;
-	left: 250px;
-	z-index: 2;
-	background-color: #ddd;
+	position: absolute;
+	top: 45px;
+	width: 100%;
+	height: calc(100% - 45px);
 }
 
 .main iframe {
 	width: 100%;
 	height: 100%;
-	border: 0;
-	z-index: 3;
-}
-
-@media screen and (max-height: 450px) {
-	.sidenav {padding-top: 15px;}
-	.sidenav a {font-size: 18px;}
 }
