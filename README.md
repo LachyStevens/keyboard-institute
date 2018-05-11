@@ -131,18 +131,18 @@ My commits can be found on my forked repository [here](https://github.com/TheOne
 ---
 
 ### Ben
-My roles since the last audit have been the lead audio director, and being the team’s continued correspondent with the ANU School of Music and School of Art personnel. My tasks as lead audio director have been setting up microphones in the ANU recording studio, recording the audio, mixing the audio in correspondence with Mike’s expectations, exporting the audio into a web-safe format for Joshua to investigate hosting. A full breakdown of my undertakings since audit 2 are as follows: 
-04/04/18 - correspondence with Mike regarding the repertoire and schedule for studio sessions
-05/04/18 - correspondence with Sam Bennett about clashes with studio availability (Mark Opitz)
-09/04/18 Studio Day 1 - correspondence from Katherine Hagan saying she would be unavailable for session, correspondence with Tayla Blewitt-Gray for replacement photographer, recording Stein, tested mic placements, instrument configurations (lid on/off, damper bar, etc), recorded excerpts K333iii, Haydn 48i, Haydn 48ii, K330i, K333i, K333iii, correspondence with Mike regarding schedule for second day
-10/04/18 Studio Day 2 - recording Walter, recorded excerpts K330i, K333i, Moonlight i, results made us rethink mic placements, did some experiments and agreed to re-record Stein, photography with Seng, correspondence with Tayla Blewitt-Gray regarding availability
-11/04/18 Studio Day 3 - collected lighting equipment from Martyn Jolly at PK, photography and filming with Seng and Tayla
-12/04/18 Studio Day 4 - correspondence from Sam Bennett regarding media team using studio in the morning - re-recording Stein with new mic placements, K330i, K330iii, K333i, K333iii, Haydn 48i, K457i
-24/04/18 - mixing session in studio on Neve Genesys, used Lexicon PCM90, EMT140 plate, AKG BX80 spring outboard gear
-26/04/18 - mixing session at home using Reaper and Liquidsonics Reverberate LE convolution hall - correspondence with Mike to present him with various mix options
-27/04/18 - correspondence from Mike confirming his mix preference
-27/04/18 - received video files from Matt
-02/05/18 - uploaded complete set of mixed audio on [Google drive](https://drive.google.com/open?id=17e7iOGwvW8plOYgSydugYP02-eVw4Vg0)
+My roles since the last audit have been the lead audio director, and being the team’s continued correspondent with the ANU School of Music and School of Art personnel. My tasks as lead audio director have been setting up microphones in the ANU recording studio, recording the audio, mixing the audio in correspondence with Mike’s expectations, exporting the audio into a web-safe format for Joshua to investigate hosting. A full breakdown of my undertakings since audit 2 are as follows:  
++ 04/04/18 - correspondence with Mike regarding the repertoire and schedule for studio sessions  
++ 05/04/18 - correspondence with Sam Bennett about clashes with studio availability (Mark Opitz)  
++ 09/04/18 Studio Day 1 - correspondence from Katherine Hagan saying she would be unavailable for session, correspondence with Tayla   Blewitt-Gray for replacement photographer, recording Stein, tested mic placements, instrument configurations (lid on/off, damper bar, etc), recorded excerpts K333iii, Haydn 48i, Haydn 48ii, K330i, K333i, K333iii, correspondence with Mike regarding schedule for second day  
++ 10/04/18 Studio Day 2 - recording Walter, recorded excerpts K330i, K333i, Moonlight i, results made us rethink mic placements, did some experiments and agreed to re-record Stein, photography with Seng, correspondence with Tayla Blewitt-Gray regarding availability  
++ 11/04/18 Studio Day 3 - collected lighting equipment from Martyn Jolly at PK, photography and filming with Seng and Tayla  
++ 12/04/18 Studio Day 4 - correspondence from Sam Bennett regarding media team using studio in the morning - re-recording Stein with new mic placements, K330i, K330iii, K333i, K333iii, Haydn 48i, K457i  
++ 24/04/18 - mixing session in studio on Neve Genesys, used Lexicon PCM90, EMT140 plate, AKG BX80 spring outboard gear  
++ 26/04/18 - mixing session at home using Reaper and Liquidsonics Reverberate LE convolution hall - correspondence with Mike to present him with various mix options  
++ 27/04/18 - correspondence from Mike confirming his mix preference  
++ 27/04/18 - received video files from Matt  
++ 02/05/18 - uploaded complete set of mixed audio on [Google drive](https://drive.google.com/open?id=17e7iOGwvW8plOYgSydugYP02-eVw4Vg0)  
 
 ---
 
