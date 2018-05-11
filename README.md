@@ -113,3 +113,48 @@ The latest version can be found [here](https://goo.gl/cdMZSw).
 
 ### The Next Few Weeks...
 We are looking to begin recording in the second week of the midsemester break. The plan so far is to document three pianos in three days, with possibly a fourth day in case we don't get everything done. We are planning to split the day into halves, one half for sound recording and the other for photography/video recording. Apart from that, we will continue having regular weekly meetings and keep up our progress on the technical aspects of this project. As per our timeline as stated above, we would love to have an early version of the website done by week 8, so we are aiming to get to a stage where we have preliminary photos and interactivity so that when we do get our multimedia resources, we can put them straight in. Currently we are on track to reach our week 8 goals.
+
+What we've accomplished since Audit 2
+====
+----
+
+### Lachlan
+My role since the last audit has been lead web developer. Since audit 2, I have gone through many website layout iterations, each on its own branch in the [main repository](https://github.com/LachyStevens/keyboard-institute). Many of these iterations were created in the ANU recording studio, as I attended 3 of the 4 total days we had scheduled. The other time spent in the studio was helping Ben with anything I could, as truth be told I was slightly out of my depth. I organised getting temporary web hosting until we get a response from the ANU about hosting on their domain. As such, the website is now being hosted at [historicalkeyboardinstitute.com](historicalkeyboardinstitute.com). The website currently being hosted is the earliest iteration of our combined efforts. To make this happen, I had to coordinate with Frank and Joshua to get the interactive javascript and hosted audio respectively running on the website. Finally, I set up and took minutes for our meetings. This involved me writing meeting agendas, reminding everyone of when our meetings were scheduled, and ensuring the schedules ran smoothly. The meeting minutes can be found [here](https://drive.google.com/open?id=1bCDOd2gmwWWTcR9eA4sqHAINEFRGkQLb). I also reminded people to make use of our [trello board](https://trello.com/b/A9V5J7d7/keyboard-institute).
+
+---
+
+### Frank
+In the past several days, I have accomplished the version 2 of virtual tour. Adding two more scenes (hammer and cap off), optimising the transition effect, adding pseudo text along with each scene, and adding a magnifier effect. Within this development period, the desired outcome is so much harder than I thought initially, and I found that visual effects will be limited and time consuming if hard coding with p5.js. I researched that using HTML and CSS would achieve the result easier and quicker. Further improvement could be adding floating effects to text and substitute real text from Mike or other stakeholders. In addition, we may could figure out a way that embedded magnifier effect inside the virtual tour without losing significantly efficiency.
+
+My commits can be found on my forked repository [here](https://github.com/TheOneFrank/keyboard-institute).
+
+---
+
+### Ben
+My roles since the last audit have been the lead audio director, and being the team’s continued correspondent with the ANU School of Music and School of Art personnel. My tasks as lead audio director have been setting up microphones in the ANU recording studio, recording the audio, mixing the audio in correspondence with Mike’s expectations, exporting the audio into a web-safe format for Joshua to investigate hosting. A full breakdown of my undertakings since audit 2 are as follows: 
+04/04/18 - correspondence with Mike regarding the repertoire and schedule for studio sessions
+05/04/18 - correspondence with Sam Bennett about clashes with studio availability (Mark Opitz)
+09/04/18 Studio Day 1 - correspondence from Katherine Hagan saying she would be unavailable for session, correspondence with Tayla Blewitt-Gray for replacement photographer, recording Stein, tested mic placements, instrument configurations (lid on/off, damper bar, etc), recorded excerpts K333iii, Haydn 48i, Haydn 48ii, K330i, K333i, K333iii, correspondence with Mike regarding schedule for second day
+10/04/18 Studio Day 2 - recording Walter, recorded excerpts K330i, K333i, Moonlight i, results made us rethink mic placements, did some experiments and agreed to re-record Stein, photography with Seng, correspondence with Tayla Blewitt-Gray regarding availability
+11/04/18 Studio Day 3 - collected lighting equipment from Martyn Jolly at PK, photography and filming with Seng and Tayla
+12/04/18 Studio Day 4 - correspondence from Sam Bennett regarding media team using studio in the morning - re-recording Stein with new mic placements, K330i, K330iii, K333i, K333iii, Haydn 48i, K457i
+24/04/18 - mixing session in studio on Neve Genesys, used Lexicon PCM90, EMT140 plate, AKG BX80 spring outboard gear
+26/04/18 - mixing session at home using Reaper and Liquidsonics Reverberate LE convolution hall - correspondence with Mike to present him with various mix options
+27/04/18 - correspondence from Mike confirming his mix preference
+27/04/18 - received video files from Matt
+02/05/18 - uploaded complete set of mixed audio on [Google drive](https://drive.google.com/open?id=17e7iOGwvW8plOYgSydugYP02-eVw4Vg0)
+
+---
+
+### Joshua
+While I visited the recording studio over the summer break, I did not do much aside from [documenting events when I was there](https://drive.google.com/open?id=1wglD-HT-2VdPYmTmxyTUIEJOHAtL7Pdi). The rest of the break was spent researching hosting sites and their use terms and conditions. After the break ended, I was tasked with hosting the audio and embedding it for use on a website. There was a bit of a delay obtaining the recorded audio and a couple of auto-copyright claims that had to be disputed when hosting. The audio files are hosted privately on my [soundcloud account](https://soundcloud.com/user-864940059), as well as the team’s shared Google drive. I have created a html file with some information on the soundcloud embedded format and a playlist of the recorded works for each piano, which can be found either my own [forked repository or the main audit repository](https://github.com/Joshua-Liow/keyboard-institute/blob/master/Prototype/soundcloudfiles.html).
+
+---
+
+### Seng
+My role since the last audit has been director of photography. I came in for two of the studio days to photograph the pianos for the website. This involved borrowing lighting from design and multimedia in the Peter Karmel building. I also took a bit of video using the cameras in the recording studio. Finally, I post-processed all the photos and exported them to a format and size that is suitable to be hosted on the web. The exported photos can be found [here](https://drive.google.com/open?id=1-RmJfmfPF0zCo4mnIZ_kqQxiiD_MA2XB).
+
+---
+
+### The Next Few Weeks...
+As the semester wraps up, we will be looking to prepare the project for handover in case we do not continue next semester. This will involve cleaning up the website, looking at ANU for hosting, sorting out the intellectual property rights of our content (audio/images), and giving Mike direct control over all the content.
