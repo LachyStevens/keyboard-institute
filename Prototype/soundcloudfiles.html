@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Audio Playing Prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script type="text/javascript" ></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <p>
+        The following are all embedded links to the hosted soundcloud audio <br>
+        Soundcloud's embedded design is not really customizable unforunately, 
+        Below will be a few different formats of the moonlight sonata recorded on the walter. As a note, this is done in html5, but you can transfer this to javascript using the widget api.
+    </p>
+    <iframe width="500" height="60" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/438107043&amp;color=000000&auto_play=false&amp;&hide_related=false&amp;&show_comments=false&amp;&show_user=false&amp;&show_reposts=false&amp;show_teaser=false&amp;visual=false&amp;show_artwork=false"></iframe>
+    <iframe width="50%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/438107043%3Fsecret_token%3Ds-ov3wG&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"></iframe>
+    <iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/438107043%3Fsecret_token%3Ds-ov3wG&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
+    <iframe width="500" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/438107043%3Fsecret_token%3Ds-ov3wG&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false&show_artwork=false"></iframe>
+
+    <p>
+        The playlists below contain all recorded audio for two pianos respectively.
+    </p>
+    
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/515308791%3Fsecret_token%3Ds-tcSAF&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false&show_artwork=false"></iframe>
+
+    <iframe width="500" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/515309079%3Fsecret_token%3Ds-9YxnJ&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&show_artwork=false&sharing=false&liking=false&show_playcount=false"></iframe>
+    
+  <audio id="player" controls></audio>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script> (function($) {
+        'use strict';
+      
+        var client_id = "SOME CLIENT ID";
+      
+        SC.initialize({
+          client_id: client_id
+        });
+      
+        SC.get("/tracks/55424024", {}, function(sound, error) {
+          $('#player').attr('src', sound.stream_url + '?client_id=' + client_id);
+        });
+    })(jQuery);
+    </script>
+
+</body>
+</html>

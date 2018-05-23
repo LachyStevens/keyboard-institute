@@ -1,0 +1,43 @@
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Video Loop Code</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script type="text/javascript" ></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+
+        <p>
+            The following is using embedded youtube links
+        </p>
+        <iframe width="480" height="360"
+            src="https://www.youtube.com/embed/RfGU8vy4m4w?">
+        </iframe>
+        <script>
+            tempsrc = "";
+
+
+        </script>
+
+        <p>
+            The following is using local files
+        </p>
+
+        <video id="myVid" width="480" height="360" controls
+        src= "SteinZoom.mp4" type="audio.mp4">
+        </video>
+
+        <script>
+            this.load = "SteinZoom.mp4"
+            document.getElementById('myVid').addEventListener('ended',Handler,false)
+            function Handler(e){
+                this.src = "SteinLoop.mp4"
+                this.autoplay = "autoplay";
+                this.loop = "loop";
+            }
+        </script>
+    </body>
+
+    

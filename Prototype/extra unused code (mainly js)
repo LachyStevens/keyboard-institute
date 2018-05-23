@@ -1,0 +1,34 @@
+<audio controls="">
+        <source src="testmusic.mp3" type="audio.mpeg">
+        <source src="testmusic.ogg" type="audio.ogg">
+            This text displays if audio does not work
+    </audio>
+
+
+    <button onclick="playVid()" type="button">Play Video</button>
+    <button onclick="pauseVid()" type="button">Pause Video</button>
+
+
+    <button onclick="locaudio()">
+        Click to supposedly access the audio. Does not work
+    </button>
+        <script>
+        var x = document.getElementById("audio");
+        function locaudio(){
+            if (x.canPlayType("audio/mpeg")){
+                x.setAttribute("src", "testmusic.mp3");
+            }else {
+                x.setAttribute("src","testmusic.ogg")
+            }
+            
+            x.setAttribute("controls", "controls");
+            x.body.appendChild(x);
+        }
+        var vid = document.getElementById("myVid");
+        function playVid(){
+            vid.play();
+        }
+        function pauseVid(){
+            vid.pause();
+        }
+    </script>
